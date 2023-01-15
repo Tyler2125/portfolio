@@ -1,5 +1,5 @@
 import React from 'react'
-import Tyler from '../images/Tyler2.jpg'
+import Tyler from "../images/Tyler2.jpg"
 
  function Greeting() {
   return (
