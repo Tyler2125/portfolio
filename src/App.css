@@ -88,8 +88,6 @@ li:hover{
 .hamburger{
   display: none;
   height: 45px;
-  border: solid 2px inherit;
-  border-radius: 5px;
   position: relative;
   width: 60px;
   margin-left:1%;
