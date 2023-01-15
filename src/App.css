@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Sora:wght@100&display=swap');
+/* General CSS */
+html{
+  scroll-behavior: smooth;
+}
+a:hover{
+  cursor: pointer;
+}
+body{
+  font-family: 'Sora', sans-serif;
+    background-color: #FFF5E4;
+  margin: 0;
+  transition: 1s;
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+input{
+  width: 100%;
+  margin: 8px 0;
+  background-color: inherit;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-color: inherit;
+  border-bottom: solid 1px inherit;
+  color: inherit;
+  text-align: left;
+}
+textarea{
+  width: 50%;
+  border-color: inherit;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  color: inherit;
+  border-bottom: solid 1px inherit;
+  padding: 12px 20px;
+  height: 200px;
+  background: inherit;
+}
+li:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: solid 2px wheat;
+  }
+  textarea{
+    width: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+/* Navigation section */
+#navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 5px 5px 5px inherit;
+}
+.links{
+  list-style: none;
+  display: inline;
+  text-align: left;
+  padding: 0;
+  position: relative;
+}
+.links li{
+  float: left;
+  display: inline;
+  margin-left: 1%;
+
+}
+.logo{
+  position: relative;
+  padding: 0;
+  width: 80px;
+  margin-left:0;
+  float: left;
+}
+/* Mobile CSS */
+.hamburger{
+  display: none;
+  height: 45px;
+  border: solid 2px inherit;
+  border-radius: 5px;
+  position: relative;
+  width: 60px;
+  margin-left:1%;
+  float: left;
+}
+.mobile-nav{
+  transition: 1s;
+  display: none;
+}
+.show-mobile{
+  display: inline-block;
+  transition: 1s;
+  text-align: center;
+  list-style-type:none ;
+  background-color: #040303;
+  font-size: 2rem;
+  position: fixed;
+  padding:0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  color:white;
+  opacity: 0.5;
+}
+
+.show-mobile:hover{
+  opacity: 1;
+  color: #FEFCF3;
+}
+  
+/* Greeting section */
+.greeting{
+  text-align: center;
+  padding: 5%;
+  margin-top: 10%;
+
+}
+.tyler{
+  border-radius: 50%;
+}
+/* Dark Mode CSS */
+/* for the entire body */
+.darkbody{
+  background-color: #151515;
+  color: #50577A;
+  transition: 1s;
+}
+/* for the darkmode button */
+.darkMode{
+  background-color: inherit;
+  border: none;
+  float: right;
+  margin-top: 1%;
+  margin-right: 2%;
+} 
+.darkMode:hover{
+  cursor: pointer;
+}
+.darkbody .darkMode {
+  color: inherit;
+}
+/* for all the buttons on the document */
+.darkbody button{
+  color: inherit;
+  box-shadow: 2px 2px 3px inherit;
+}
+.darkbody button:hover{
+  transition: 1s;
+  box-shadow:inherit;
+}
+/* for the submit button in the contact section */
+.darkbody .SubmitBTN{
+  background-color: inherit;
+}
+/* About section */
+
+.column{
+ float: left;
+ margin-left: 15%;
+ z-index: -1;
+}
+.column2{
+  float: right;
+  margin-right: 15%;
+  padding: 2%;
+}
+.column,.column2{
+  width: 25%;
+ padding: 2%;
+ box-shadow: 5px 5px 5px #000000;
+
+}
+.transition{
+  transition: 1s;
+}
+
+/* skill section */
+.skill-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100%;
+}
+.skill-card{
+  height: 200px;
+  width: 200px;
+  margin: 1%;
+  box-shadow: 5px 5px 5px #000000;
+
+}
+.skill-img{
+  width: 100px;
+  background-color: inherit;
+}
+
+
+
+
+
+/* project section */
+.each-section{
+  color: inherit;
+  padding: 2%;
+  text-align: center;
+  height: 500px;
+  
+}
+.project-section{
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card{
+  height: 200px;
+  width: 300px;
+  margin: 1%;
+  box-shadow: 5px 5px 5px #000000;
+  word-wrap: break-word;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.project-card:hover{
+  height: 400px;
+  cursor: pointer;
+  background-color: inherit;
+  z-index: 2;
+}
+.project-img{
+  width: 200px;
+  background-color: inherit;
+}
+.project-button{
+  padding: 1.5%;
+  margin-top: 10%;
+  margin-left: 4%;
+  background-color: inherit;
+  border-color:inherit ;
+  border-radius: 10%;
+}
+.project-button:hover{
+  box-shadow:  2px 2px lightgray;
+  cursor: pointer;
+}
+/* Contact Section */
+#Contact{
+  margin-top: 0;
+}
+.SubmitBTN{
+  font-size: 1rem;
+  padding: 2%;
+  background-color: #F2E7D5;
+  border: none;
+  border-radius: 20px;
+}
+.SubmitBTN:hover{
+  cursor: pointer;
+  background-color: inherit;
+  box-shadow: 1px 2px 3px darkgray;
+}
+/* Footer */
+.socials{
+  text-align: center;
+  padding: 2%;
+font-family: 'Silkscreen', arial; 
+bottom: 0;
+}
+.icons{
+  display: inline;
+  padding: 2px;
+  margin:1%;
+}
+.icons:hover{
+  cursor: pointer;
+  color: #E8DFCA;
+}
+/* Mobile Styling */
+@media  screen and (max-width: 700px){
+.column{
+  width: 30%;
+  overflow-x: hidden;
+}
+.greeting{margin-top: 25%;}
+.logo{
+  display: none;
+}
+.hamburger{ display: inline-block;}
+.hamburger:hover{
+  cursor: pointer;
+}
+#Projects{
+  margin-top: 50%;
+}
+#Contact{
+  margin-top: 110%;
+}
+input{
+  width: 90%;
+}
+#navbar .links{
+  display: none;
+}
+
+
+}
