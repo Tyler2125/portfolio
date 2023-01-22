@@ -2,7 +2,6 @@ import React from 'react'
 import StopWatch from '../images/StopWatch.jpeg'
 import PixelArt from '../images/PixelArt.jpeg'
 import Todo from '../images/Todo.jpg'
-import Construction from '../images/Under-construction.jpg'
 
 export default function Projects() {
 function stopLive(){

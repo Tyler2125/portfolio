@@ -9,7 +9,7 @@ a:hover{
 }
 body{
   font-family: 'Sora', sans-serif;
-    background-color: #FFF5E4;
+    background-color: #F7F5EB;
   margin: 0;
   transition: 1s;
 }
@@ -59,10 +59,11 @@ li:hover{
   }
 /* Navigation section */
 #navbar{
+  background-color: #F7F5EB;
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 5px 5px 5px inherit;
+  box-shadow: 5px 5px 5px black;
 }
 .links{
   list-style: none;
@@ -121,9 +122,16 @@ li:hover{
   
 /* Greeting section */
 .greeting{
+  background-image: url('./images/Astronaut.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  top: 0;
+  height: 50vh;
   text-align: center;
   padding: 5%;
-  margin-top: 10%;
 
 }
 .tyler{
@@ -146,7 +154,12 @@ li:hover{
   float: right;
   margin-top: 1%;
   margin-right: 2%;
-} 
+}
+.darkbody #navbar{
+  transition:1s;
+  background-color: #151515;
+
+}
 .darkMode:hover{
   cursor: pointer;
 }
@@ -296,7 +309,7 @@ bottom: 0;
   width: 30%;
   overflow-x: hidden;
 }
-.greeting{margin-top: 25%;}
+.greeting{margin-top: 10%;}
 .logo{
   display: none;
 }
