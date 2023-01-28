@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.967b6a42.css",
-    "main.js": "/portfolio/static/js/main.43ade9db.js",
+    "main.js": "/portfolio/static/js/main.22386389.js",
     "static/media/Astronaut.jpg": "/portfolio/static/media/Astronaut.c05b89d85d26e27bf4c7.jpg",
     "static/media/Tyler2.jpg": "/portfolio/static/media/Tyler2.53a578c0526da5446763.jpg",
+    "static/media/SQL.png": "/portfolio/static/media/SQL.2f803ad2c46d3f5e511c.png",
+    "static/media/node.png": "/portfolio/static/media/node.d980d9636ace07ad3dde.png",
     "static/media/StopWatch.jpeg": "/portfolio/static/media/StopWatch.45a59677fa5d44a5d62d.jpeg",
-    "static/media/react.png": "/portfolio/static/media/react.4fa67af78841fe316dce.png",
-    "static/media/js.png": "/portfolio/static/media/js.7a43aba0530f78db23f5.png",
-    "static/media/css.png": "/portfolio/static/media/css.37c06ea14eb5439b3861.png",
     "static/media/Tyler.png": "/portfolio/static/media/Tyler.29b2642daa22789560f4.png",
     "static/media/Todo.jpg": "/portfolio/static/media/Todo.1ed443d9b91a9eeaf7a5.jpg",
-    "static/media/html.png": "/portfolio/static/media/html.0575956dc86dd728bc80.png",
     "static/media/PixelArt.jpeg": "/portfolio/static/media/PixelArt.867dee19a98b712dfd3f.jpeg",
+    "static/media/react.png": "/portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/js.png": "/portfolio/static/media/js.dafbcd7fb56fcfce553c.png",
     "index.html": "/portfolio/index.html",
     "main.967b6a42.css.map": "/portfolio/static/css/main.967b6a42.css.map",
-    "main.43ade9db.js.map": "/portfolio/static/js/main.43ade9db.js.map"
+    "main.22386389.js.map": "/portfolio/static/js/main.22386389.js.map"
   },
   "entrypoints": [
     "static/css/main.967b6a42.css",
-    "static/js/main.43ade9db.js"
+    "static/js/main.22386389.js"
   ]
 }
