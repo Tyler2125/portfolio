@@ -3,6 +3,8 @@ import js from '../images/js.png'
 import css from '../images/css.png'
 import html from '../images/html.png'
 import react from '../images/react.png'
+import node from '../images/node.png'
+import sql from '../images/SQL.png'
 export default function Skills() {
   return (
     <div id='Skills' className='each-section '>
@@ -17,9 +19,9 @@ export default function Skills() {
 </div>
     <div className='skill-card'><img className='skill-img' src={react} alt="react"/>    <h3>React</h3>
 </div>
-    <div className='skill-card'><img className='skill-img'src={html} alt="HTML"/>    <h3>Node.JS</h3>
+    <div className='skill-card'><img className='skill-img'src={node} alt="Node"/>    <h3>Node.JS</h3>
 </div>
-    <div className='skill-card'><img className='skill-img' src={css} alt="css"/>    <h3>SQL</h3>
+    <div className='skill-card'><img className='skill-img' src={sql} alt="css"/>    <h3>SQL</h3>
 </div>
     </div>
     </div>
