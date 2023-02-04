@@ -17,9 +17,9 @@ function Contact() {
   return (
     <div id='Contact' className='each-section'><h1>Contact</h1>
     <form id='contact-form' onSubmit={sendEmail}>
-    <label for="fname">Full Name:</label>
+    <label htmlFor="fname">Full Name:</label>
     <input name="from_name"id="fName"type="Text" maxLength="25"required placeholder="Enter your Full Name"/>
-<label for="email">Email: </label>
+<label htmlFor="email">Email: </label>
 <input id="email"type="email" name="user_email"required placeholder='Enter your Email'/>   
  <label>Message</label>
       <textarea name="message"  maxLength="2500" required placeholder='Type your message here!'/>

@@ -14,7 +14,7 @@ import showCase from '../data/ShowCase'
     <div id='Projects' className=' each-section'>
       <h1>Projects</h1>
       <div className='project-section'>
-        {showCase.map((item)=>{return<div className='project-card'><h1>{item.Title}</h1><img className='project-img' alt={item
+        {showCase.map((item)=>{return<div key={item.id} className='project-card'><h1>{item.Title}</h1><img className='project-img' alt={item
         .Title} src={item.image}/>
 <p>{item.Description}</p>
 <button className='project-button' onClick={item.Code}>View Code</button>
