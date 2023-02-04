@@ -4,6 +4,7 @@
 html{
   scroll-behavior: smooth;
 }
+a{color: inherit;}
 a:hover{
   cursor: pointer;
 }
@@ -29,7 +30,7 @@ input{
   text-align: left;
 }
 textarea{
-  width: 50%;
+  width: 100%;
   border-color: inherit;
   border-right: none;
   border-left: none;
@@ -39,16 +40,13 @@ textarea{
   padding: 12px 20px;
   height: 200px;
   background: inherit;
+  margin-bottom: 4%;
+
 }
 li:hover{
   cursor: pointer;
   transition: 0.5s;
   border-bottom: solid 2px wheat;
-  }
-  textarea{
-    width: 100%;
-    margin-bottom: 4%;
-    padding: 0;
   }
   button{
     border: none;
@@ -147,6 +145,9 @@ li:hover{
   color: #50577A;
   transition: 1s;
 }
+.darkbody input{
+  border-color:#50577A ;
+}
 /* for the darkmode button */
 .darkMode{
   background-color: inherit;
@@ -160,7 +161,9 @@ li:hover{
   background-color: #151515;
 
 }
+
 .darkMode:hover{
+  color: #000000;
   cursor: pointer;
 }
 .darkbody .darkMode {
@@ -171,13 +174,20 @@ li:hover{
   color: inherit;
   box-shadow: 2px 2px 3px inherit;
 }
-.darkbody button:hover{
+.darkbody .project-button:hover{
+  background-color:#e4ce09 ;
+  color: #151515;
   transition: 1s;
   box-shadow:inherit;
 }
 /* for the submit button in the contact section */
 .darkbody .SubmitBTN{
   background-color: inherit;
+}
+.darkbody .SubmitBTN:hover{
+  background-color:#e4ce09 ;
+  color: #151515;
+  transition: 1s;
 }
 /* About section */
 

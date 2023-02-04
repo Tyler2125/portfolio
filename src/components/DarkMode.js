@@ -10,7 +10,7 @@ import {BsFillSunFill,BsFillMoonStarsFill}from 'react-icons/bs'
  }
   return (
     <div>
-        <button onClick={darken} className='darkMode'>{dark?<BsFillMoonStarsFill color='#DDDDDD' size={24}/>:<BsFillSunFill color='orange' size={24}/>}</button>
+        <button onClick={darken} className='darkMode'>{dark?<BsFillMoonStarsFill color='#DDDDDD'size={24}/>:<BsFillSunFill color='orange' size={24}/>}</button>
     </div>
   )
 }
